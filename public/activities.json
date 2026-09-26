@@ -11,7 +11,9 @@
     "url": "https://kaizensurfschool.es/en/private-surf-lessons/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Already planned category; ranked backup/primary bookable school with clear prices."
+    "notes": "Already planned category; ranked backup/primary bookable school with clear prices.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaizen%20Surf%20School%20Playa%20de%20las%20Am%C3%A9ricas%20Tenerife",
+    "rating": "5.0 (170 Google, via Trustindex widget)"
   },
   {
     "id": "surf-surflife",
@@ -25,7 +27,9 @@
     "url": "https://www.surflifetenerife.com/surf-school-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Closest practical school hub to Palm-Mar; WhatsApp +34 600 73 13 38."
+    "notes": "Closest practical school hub to Palm-Mar; WhatsApp +34 600 73 13 38.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Surf%20Life%20Tenerife%20Parque%20Santiago%203%20Las%20Am%C3%A9ricas%20Tenerife",
+    "rating": "5.0 (37 Tripadvisor/Viator — private double surf lesson listing)"
   },
   {
     "id": "surf-elmedano-private",
@@ -39,7 +43,9 @@
     "url": "https://windcenterplayasurf.com/surf/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "25–35 min from Palm-Mar; also see Sogni Canarias."
+    "notes": "25–35 min from Palm-Mar; also see Sogni Canarias.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wind%20Center%20Playa%20Surf%20El%20M%C3%A9dano%20Tenerife",
+    "rating": null
   },
   {
     "id": "sup-surflife-camison",
@@ -53,7 +59,9 @@
     "url": "https://www.surflifetenerife.com/sup/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Best sheltered beginner SUP near base."
+    "notes": "Best sheltered beginner SUP near base.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Surf%20Life%20Tenerife%20Playa%20El%20Camis%C3%B3n%20Las%20Am%C3%A9ricas%20Tenerife",
+    "rating": null
   },
   {
     "id": "sup-aventura-cristianos",
@@ -67,7 +75,9 @@
     "url": "https://aventura-excursions.com/product/stand-up-paddle/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Slots typically 10:00, 12:30, 15:00."
+    "notes": "Slots typically 10:00, 12:30, 15:00.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aventura%20Excursions%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "sup-elmedano",
@@ -81,7 +91,57 @@
     "url": "https://www.yumping.com/en/deals/paddle-boarding/tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Windier than El Camisón."
+    "notes": "Windier than El Camisón.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Paddle%20surf%20El%20M%C3%A9dano%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "kayak-easykayak-palmmar",
+    "category": "kayak",
+    "name": "Easy Kayak Tenerife — Palm-Mar kayak + snorkel",
+    "rank": 1,
+    "summary": "Guided 2h sea-kayak + snorkel from Palm-Mar itself along the volcanic coast/cliffs; turtles common, dolphins if lucky. Small groups, no experience needed.",
+    "area": "Palm-Mar (La Arenita beach) — walking distance / minutes from base",
+    "duration": "2 hours (guided); rentals 1–4h",
+    "price": "€45 adult guided (€40 pp groups of 4+); double-kayak rental €35/1h – €80/4h",
+    "url": "https://www.easykayaktenerife.com/kayak-tenerife-prices-2026",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Closest possible option to the base; less crowded than Los Cristianos. Free cancellation. Platform ratings vary (Peek/Trip.com) — no Google/Tripadvisor score found.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Easy%20Kayak%20Tenerife%20Palm-Mar%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "kayak-xplore-cristianos",
+    "category": "kayak",
+    "name": "Xplore Tenerife — turtle & dolphin kayak + snorkel (Los Cristianos)",
+    "rank": 2,
+    "summary": "3h guided kayak from Playa de Los Cristianos toward Cueva de los Enamorados / Palm-Mar cliffs with turtle snorkel; eco-certified kayaks.",
+    "area": "Los Cristianos (Edificio Cristianmar, C. El Coronel 1)",
+    "duration": "3 hours; 15 daily start times 08:00–15:30 (listed Sep 22–Dec 30 2026)",
+    "price": "From €38 pp",
+    "url": "https://www.checkyeti.com/en/d/4536/33772",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Most-reviewed kayak operator in the south; sightings not guaranteed. Product listing on Tripadvisor 4.5 (499).",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Xplore%20Tenerife%20Los%20Cristianos%20Tenerife",
+    "rating": "4.7 (1,587 Tripadvisor — operator)"
+  },
+  {
+    "id": "kayak-atlantis-palmmar-wall",
+    "category": "kayak",
+    "name": "Diving Atlantis — kayak to Palm-Mar Wall (dolphins)",
+    "rank": 3,
+    "summary": "2h guided kayak from Los Cristianos along the Palm-Mar cliff wall looking for dolphins; turtle-snorkel variant available.",
+    "area": "Los Cristianos (Diving Atlantis base)",
+    "duration": "2 hours; daily 10:00 / 12:30 / 14:00 (listed Sep 20–Dec 31 2026)",
+    "price": "From €39 adult (€18.50 child); turtle-snorkel variant from ~€22 listed (check site)",
+    "url": "https://www.checkyeti.com/en/d/2301/18629",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Same centre as the snorkel/try-dive items — easy combo day. Also: https://divingatlantis.com/en/services/kayaking-tours/",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Diving%20Atlantis%20Tenerife%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "scuba-barbarian-try",
@@ -95,7 +155,9 @@
     "url": "https://barbariandiving.com/try-scuba-diving-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Age 10+; credits toward SSI certification within 6 months."
+    "notes": "Age 10+; credits toward SSI certification within 6 months.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barbarian%20Diving%20Los%20Cristianos%20Tenerife",
+    "rating": "5.0 (62 Tripadvisor)"
   },
   {
     "id": "scuba-bigfish-dsd",
@@ -109,7 +171,9 @@
     "url": "https://bigfishtenerife.com/en/course/discover-scuba-dive",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Age 10+; medical form required."
+    "notes": "Age 10+; medical form required.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Big%20Fish%20Dive%20Center%20Los%20Cristianos%20Tenerife",
+    "rating": "4.8 (355 Tripadvisor)"
   },
   {
     "id": "scuba-atlantis-try",
@@ -123,7 +187,9 @@
     "url": "https://divingatlantis-tenerife.com/en/services/try-dive-turtles/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Same center for snorkel combo."
+    "notes": "Same center for snorkel combo.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Diving%20Atlantis%20Tenerife%20Paseo%20Mar%C3%ADtimo%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "scuba-aquamarina-dsd",
@@ -137,7 +203,9 @@
     "url": "https://aqua-marina.com/discover-scuba-diving/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Good if considering full certification during the trip."
+    "notes": "Good if considering full certification during the trip.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aqua%20Marina%20dive%20center%20Los%20Cristianos%20Tenerife",
+    "rating": "4.9 (920 Tripadvisor)"
   },
   {
     "id": "snorkel-atlantis-rays",
@@ -151,7 +219,9 @@
     "url": "https://divingatlantis-tenerife.com/en/services/snorkeling/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Departures 10:00, 12:30, 15:00."
+    "notes": "Departures 10:00, 12:30, 15:00.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Diving%20Atlantis%20Tenerife%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "snorkel-atlantis-boat-turtles",
@@ -165,7 +235,9 @@
     "url": "https://divingatlantis-tenerife.com/en/services/snorkeling/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Sightings not guaranteed."
+    "notes": "Sightings not guaranteed.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Diving%20Atlantis%20Tenerife%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "snorkel-palmmar-turtles",
@@ -179,7 +251,9 @@
     "url": "https://tenerifexcursiones.com/en/producto/snorkel-with-turtles/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Very local to base accommodation."
+    "notes": "Very local to base accommodation.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tenerife%20Excursiones%20snorkel%20turtles%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "whale-bahriyeli-nochease",
@@ -193,13 +267,47 @@
     "url": "https://www.checkyeti.com/en/d/4673/33724",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Slots e.g. 10:30, 12:30, 14:30; availability into late 2026."
+    "notes": "Slots e.g. 10:30, 12:30, 14:30; availability into late 2026.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bahriyeli%20Mar%20de%20Ons%20Los%20Cristianos%20harbour%20Tenerife",
+    "rating": "4.6 (1,797 Tripadvisor — Mar de Ons listing)"
+  },
+  {
+    "id": "whale-kalimakat-catamaran",
+    "category": "whale_dolphin",
+    "name": "Kalima Kat — small-group catamaran (3h)",
+    "rank": 2,
+    "summary": "Small catamaran (~22 guests) from Puerto Colón: cetacean spotting, swim + snorkel stop at a cove, snacks and drinks included.",
+    "area": "Puerto Colón pontoon 4, Costa Adeje",
+    "duration": "3 hours",
+    "price": "€50 adult (listed down from €65)",
+    "url": "https://kalimakat.es/en/activity/catamaran-excursion-tenerife/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Best 'catamaran with friends' vibe — small and relaxed vs. the big 90-pax boats. Site shows a 300-review widget but no numeric score found.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kalima%20Kat%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "whale-freebird-catamaran",
+    "category": "whale_dolphin",
+    "name": "Freebird catamaran — whale & dolphin cruise (3h / 4.5h Masca)",
+    "rank": 3,
+    "summary": "Large catamaran from Puerto Colón; 3h Costa Adeje cruise or 4.5h to Los Gigantes cliffs & Masca Bay; food, drinks, swim stop, south hotel pickup included.",
+    "area": "Puerto Colón, Costa Adeje",
+    "duration": "2h / 3h / 4.5h",
+    "price": "€30 (2h) / €47 (3h) / €62 (4.5h Masca) adult",
+    "url": "https://www.freebirdone.com/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Member of Tenerife Whale-watching Quality Charter; pickup included on 3h and 4.5h; crowded big-boat experience.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Freebird%20Catamaran%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": "4.0 (2,022 Tripadvisor)"
   },
   {
     "id": "whale-peterpan",
     "category": "whale_dolphin",
     "name": "Peter Pan schooner whale watch",
-    "rank": 2,
+    "rank": 4,
     "summary": "Classic schooner; 2h watch or 3h lunch+swim (often near Palm-Mar).",
     "area": "Puerto de Los Cristianos",
     "duration": "2–3 hours",
@@ -207,13 +315,15 @@
     "url": "https://www.traveltenerife.es/booking/peter-pan/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "3h typically Tue/Thu/Sat."
+    "notes": "3h typically Tue/Thu/Sat.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Peter%20Pan%20schooner%20Puerto%20de%20Los%20Cristianos%20Tenerife",
+    "rating": "4.6 (135 Tripadvisor)"
   },
   {
     "id": "whale-civitatis-yacht",
     "category": "whale_dolphin",
     "name": "Civitatis yacht / schooner whale watch",
-    "rank": 3,
+    "rank": 5,
     "summary": "Shared yacht with lunch and swim or shorter schooner from Los Cristianos / Puerto Colón.",
     "area": "Los Cristianos / Puerto Colón",
     "duration": "2–3 hours",
@@ -221,7 +331,9 @@
     "url": "https://www.civitatis.com/en/los-cristianos/yacht-ride-dolphin-whale-watching/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Also schooner: civitatis.com schooner-whale-watching-cruise."
+    "notes": "Also schooner: civitatis.com schooner-whale-watching-cruise.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": null
   },
   {
     "id": "hike-teide",
@@ -235,7 +347,9 @@
     "url": "https://www.getyourguide.com/mount-teide-l5023/hiking-tc71/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Layers essential in October; peak trail needs permit."
+    "notes": "Layers essential in October; peak trail needs permit.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Roques%20de%20Garc%C3%ADa%20Teide%20National%20Park%20Tenerife",
+    "rating": null
   },
   {
     "id": "hike-masca",
@@ -249,7 +363,9 @@
     "url": "https://www.viator.com/tours/Tenerife/Mt-Teide-and-Masca-Valley-Tour-in-Tenerife/d5404-6399MASCA",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Capacity-limited — book early; more adventurous than Teide viewpoints."
+    "notes": "Capacity-limited — book early; more adventurous than Teide viewpoints.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barranco%20de%20Masca%20Masca%20Tenerife",
+    "rating": null
   },
   {
     "id": "hike-anaga",
@@ -263,7 +379,9 @@
     "url": "https://www.viator.com/tours/Tenerife/Full-day-Anaga-mountains-hiking-tour/d5404-411837P5",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "1.5–2+ hrs from Palm-Mar each way; worth one dedicated day only."
+    "notes": "1.5–2+ hrs from Palm-Mar each way; worth one dedicated day only.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parque%20Rural%20de%20Anaga%20Tenerife",
+    "rating": null
   },
   {
     "id": "paraglide-brisa",
@@ -277,7 +395,9 @@
     "url": "https://paraglidingtenerifebrisa.com/en/paragliding-prices-adeje-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Weather-dependent; 24h cancel for full refund."
+    "notes": "Weather-dependent; 24h cancel for full refund.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brisa%20Paragliding%20Adeje%20Tenerife",
+    "rating": null
   },
   {
     "id": "paraglide-overfly",
@@ -291,7 +411,9 @@
     "url": "https://overflytenerife.com/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Also paraglidingadeje.com."
+    "notes": "Also paraglidingadeje.com.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Overfly%20Tenerife%20Costa%20Adeje%20Tenerife",
+    "rating": "5.0 (~607 Tripadvisor)"
   },
   {
     "id": "buggy-safari-2h",
@@ -305,7 +427,9 @@
     "url": "https://buggysafaritenerife.com/2h-off-road-buggy-tour/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Driver 18+ with licence; departures 11:00, 13:00, 16:00."
+    "notes": "Driver 18+ with licence; departures 11:00, 13:00, 16:00.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buggy%20Safari%20Tenerife%20Calle%20Archajara%20Costa%20Adeje%20Tenerife",
+    "rating": "4.8 (1,752 Tripadvisor)"
   },
   {
     "id": "buggy-canco-sunset",
@@ -319,7 +443,105 @@
     "url": "https://www.cancotenerife.com/en/product/buggy-tour-costa-adeje-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Sunset variant: cancotenerife.com sunset-buggy-tour-tenerife-south."
+    "notes": "Sunset variant: cancotenerife.com sunset-buggy-tour-tenerife-south.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Canc%C3%B3%20Tenerife%20Costa%20Adeje%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "quad-tfe-teide",
+    "category": "buggy_jeep",
+    "name": "Tenerife First Excursions — Quad trip to Mt. Teide (3h)",
+    "rank": 3,
+    "summary": "Guided quad ride on paved roads up through pine forest and lava fields into Teide National Park (~2,000 m); sunset variant; south hotel transfers included.",
+    "area": "South Tenerife (transfers from south resorts) → Teide National Park",
+    "duration": "3 hours",
+    "price": "€150 single quad / €170 double quad",
+    "url": "https://tenerifefirstexcursions.com/product/buggy-quad-tours-tenerife/quad-trip-to-mt-teide-3-hours/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Driver needs valid car licence. Road-based route (not off-road). Teide Sunset Quad listing: 5.0 (76 Tripadvisor).",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tenerife%20First%20Excursions%20Tenerife",
+    "rating": "4.9 (320 Tripadvisor — Tenerife First Quads)"
+  },
+  {
+    "id": "quad-lavaland-teide",
+    "category": "buggy_jeep",
+    "name": "Lava Land Tours — Teide Quad Safari (3.5h)",
+    "rank": 4,
+    "summary": "400cc automatic quads via Vilaflor to ~2,100 m in Teide National Park; day or sunset; max 4–6 quads; includes short off-road section outside the park.",
+    "area": "South pickup → Vilaflor / Teide National Park",
+    "duration": "3.5 hours",
+    "price": "€135 single / €165 double listed (promo €120 single seen)",
+    "url": "https://lavalandtours.com/tour/tenerife-quad-tour-teide-national-park-safari/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Small groups; hotel pickup/drop-off in the south, fuel, helmet, insurance included. Also offers 2.5h Forest Explorer off-road quad.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lava%20Land%20Tours%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "quad-sunbonoo-teide-forest",
+    "category": "buggy_jeep",
+    "name": "Sunbonoo — quad safari Teide or Forest (3h)",
+    "rank": 5,
+    "summary": "Teide route (80 km, up to 2,300 m, 3 stops) or off-road forest route; guide + snack; south transfer option.",
+    "area": "South pickup (incl. Palm-Mar/Los Cristianos/Las Américas listed) → Teide",
+    "duration": "~3 hours",
+    "price": "From €140 single quad without transfer (check site for double / transfer)",
+    "url": "https://www.sunbonoo.com/en/quad-safari-tenerife-teide-or-forest-tour-9186",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Pickup list explicitly includes Palm-Mar-area resorts (Palmar/Los Cristianos/Las Galletas). Reseller listing.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Quad%20safari%20Teide%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "jetski-island-puertocolon",
+    "category": "jet_ski",
+    "name": "Jet Ski Island Tenerife — guided jet-ski safari",
+    "rank": 1,
+    "summary": "1h guided safari on new Yamaha jet skis from Puerto Colón along the south coast with swim stop at La Caleta; max 4 jet skis per group; photo package optional.",
+    "area": "Pantalán 9, Puerto Colón, Costa Adeje",
+    "duration": "~1 hour",
+    "price": "Silver / Gold / Private tickets (check site; 20% online discount); GetYourGuide listings from ~€49",
+    "url": "https://jetskiislandtenerife.com/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Drive solo from 16; drive with passenger 18+; passengers from 6. Photos €30 extra (incl. in Gold); wetsuit €10.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jet%20Ski%20Island%20Tenerife%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": "4.6 (157 GetYourGuide — 'Tenerife Coast Jet Ski Tour with Photos' listing; not Google/Tripadvisor)"
+  },
+  {
+    "id": "jetski-puertocolon-safari",
+    "category": "jet_ski",
+    "name": "JetSki Puerto Colón — single or double jet-ski safari",
+    "rank": 2,
+    "summary": "Guided Sea-Doo safari along Costa Adeje; 60 min total (~45 min on water); single or shared double jet ski.",
+    "area": "Puerto Colón, Costa Adeje",
+    "duration": "60 min total (~45 min on water)",
+    "price": "€100 single rider / €120 total for 2 on one jet ski",
+    "url": "https://jetskipuertocolon.com/jet-ski-safari-adeje-booking/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Clear published prices; double option good value for two friends. Arrive 30 min early.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JetSki%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "jetski-gyg-costa-adeje",
+    "category": "jet_ski",
+    "name": "GetYourGuide Costa Adeje jet-ski listings (compare)",
+    "rank": 3,
+    "summary": "Marketplace of Puerto Colón / Las Galletas jet-ski tours (40 min–1h) with free cancellation; handy for comparing slots.",
+    "area": "Puerto Colón / Las Galletas",
+    "duration": "40 min – 1 hour",
+    "price": "Listings from ~US$50–80 per jet ski (check site)",
+    "url": "https://www.getyourguide.com/costa-adeje-l148464/jet-skis-tc67/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Aggregator — pick a listing with high review counts; some Las Galletas options include Los Cristianos pickup.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": null
   },
   {
     "id": "stargaze-volcanoteide-sunset-stars",
@@ -333,7 +555,9 @@
     "url": "https://www.volcanoteide.com/en/volcano_teide/stars/sunset_and_stars_on_teide",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Book ahead; warm closed shoes; no pregnancy/heart issues on cable car; age 8+."
+    "notes": "Book ahead; warm closed shoes; no pregnancy/heart issues on cable car; age 8+.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Telef%C3%A9rico%20del%20Teide%20Tenerife",
+    "rating": "4.4 (139 reviews on volcanoteide.com product page — not Google/Tripadvisor)"
   },
   {
     "id": "stargaze-teide-safari-budget",
@@ -347,7 +571,9 @@
     "url": "https://island-guide.com/teide-national-park-sunset-stargazing-safari-with-dinner/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Budget alternative if Sunset & Stars sold out."
+    "notes": "Budget alternative if Sunset & Stars sold out.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Teide%20National%20Park%20Tenerife",
+    "rating": null
   },
   {
     "id": "market-los-cristianos",
@@ -361,7 +587,9 @@
     "url": "https://www.everythingtenerife.co.uk/markets-south-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Tuesdays and Sundays; Tuesday quieter."
+    "notes": "Tuesdays and Sundays; Tuesday quieter.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercadillo%20Los%20Cristianos%20Tenerife",
+    "rating": null
   },
   {
     "id": "market-fanabe-adeje",
@@ -375,7 +603,9 @@
     "url": "https://www.everythingtenerife.co.uk/markets-south-tenerife/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Typically Thu & Sat — confirm locally."
+    "notes": "Typically Thu & Sat — confirm locally.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercadillo%20Fa%C3%B1ab%C3%A9%20Costa%20Adeje%20Tenerife",
+    "rating": null
   },
   {
     "id": "daytrip-siam-park",
@@ -389,7 +619,9 @@
     "url": "https://parklandvoyage.com/en/articles/spain/siam-park-tenerife",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Book official tickets online; winter hours often to 17:00."
+    "notes": "Book official tickets online; winter hours often to 17:00.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Siam%20Park%20Costa%20Adeje%20Tenerife",
+    "rating": "4.4 (38,095 Tripadvisor)"
   },
   {
     "id": "daytrip-teide-masca-coach",
@@ -403,7 +635,9 @@
     "url": "https://www.viator.com/tours/Tenerife/Mt-Teide-and-Masca-Valley-Tour-in-Tenerife/d5404-6399MASCA",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Low-exertion overview day."
+    "notes": "Low-exertion overview day.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Masca%20Tenerife",
+    "rating": null
   },
   {
     "id": "daytrip-los-gigantes-masca-boat",
@@ -417,7 +651,9 @@
     "url": "https://tenerifecotours.com/en/product/tour-masca-in-catamaran/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Combines scenery + cetaceans."
+    "notes": "Combines scenery + cetaceans. Operated on the Royal Delfin underwater-window catamaran (Puerto Colón pontoon 12); reseller page shows from €40, Royal Delfin direct lists 4.5h adult €60.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Delfin%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": "3.9 (855 Tripadvisor — Royal Delfin, the catamaran this product uses)"
   },
   {
     "id": "nightlife-adeje-rooftop",
@@ -431,7 +667,9 @@
     "url": null,
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Prefer over Veronica’s Strip for relaxed vibe."
+    "notes": "Prefer over Veronica’s Strip for relaxed vibe.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Costa%20Adeje%20promenade%20bars%20Tenerife",
+    "rating": null
   },
   {
     "id": "nightlife-vault-cristianos",
@@ -445,13 +683,31 @@
     "url": "https://thevaultbartenerife.com/",
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Example venue; check live schedule."
+    "notes": "Example venue; check live schedule.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Vault%20Bar%20Tenerife%20Los%20Cristianos%20Tenerife",
+    "rating": "4.6 (860 Tripadvisor)"
+  },
+  {
+    "id": "nightlife-utopia-boat-pool-party",
+    "category": "nightlife",
+    "name": "Utopia Parties — boat party & pool party",
+    "rank": 3,
+    "summary": "Tenerife's long-running party brand: 3h open-bar DJ boat party from Puerto Colón (Wed/Sat/Sun) and Friday pool party at Monkey Beach Club (12:00–18:00). DUO ticket combines both.",
+    "area": "Puerto Colón (boat) / Monkey Beach Club, Playa de Troya, Las Américas (pool)",
+    "duration": "Boat 3h; pool party 12:00–18:00",
+    "price": "Boat from €70 (standard open bar listed €80); pool party from €20–30 entry; DUO ticket discounts; Viator 2-day ticket from ~US$137",
+    "url": "https://utopiaparties.com/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Runs year-round, weekly — in-window days: boat Wed 7/14, Sat 10/17, Sun 11/18 Oct (Sun 4 Oct clashes with arrival); pool party Fri 9/16 Oct. Boat meet 15:30 summer time / 12:30 winter (clocks change 25 Oct → expect 15:30). Strictly 18+; stag/hen-heavy crowd.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Utopia%20Boat%20Party%20Puerto%20Col%C3%B3n%20Costa%20Adeje%20Tenerife",
+    "rating": "3.8 (28 Tripadvisor — Utopia Boat Party listing)"
   },
   {
     "id": "nightlife-americas-veronicas",
     "category": "nightlife",
     "name": "Las Américas / Veronica’s Strip",
-    "rank": 3,
+    "rank": 4,
     "summary": "Dense tourist bar and club strip; loud party scene.",
     "area": "Playa de las Américas",
     "duration": "Late night",
@@ -459,7 +715,9 @@
     "url": null,
     "scheduleType": "ongoing",
     "dates": null,
-    "notes": "Include for completeness; skip if preferring quieter nights."
+    "notes": "Include for completeness; skip if preferring quieter nights.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Veronicas%20Strip%20Playa%20de%20las%20Am%C3%A9ricas%20Tenerife",
+    "rating": null
   },
   {
     "id": "event-elrow-xxl-2026-10-10",
@@ -475,7 +733,9 @@
     "dates": [
       "2026-10-10"
     ],
-    "notes": "+18; buy early; easy from Palm-Mar."
+    "notes": "+18; buy early; easy from Palm-Mar.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Golf%20Costa%20Adeje%20Adeje%20Tenerife",
+    "rating": null
   },
   {
     "id": "event-eolica-2026-10-16-17",
@@ -492,7 +752,9 @@
       "2026-10-16",
       "2026-10-17"
     ],
-    "notes": "Standout trip-window event; south venue near base corridor."
+    "notes": "Standout trip-window event; south venue near base corridor.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ITER%20Granadilla%20de%20Abona%20Tenerife",
+    "rating": null
   },
   {
     "id": "event-cross-adeje-2026-10-11",
@@ -508,6 +770,8 @@
     "dates": [
       "2026-10-11"
     ],
-    "notes": "Register by ~7 Oct via Gesport Canarias."
+    "notes": "Register by ~7 Oct via Gesport Canarias.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Campo%20de%20F%C3%BAtbol%20de%20Adeje%20Tenerife",
+    "rating": null
   }
 ]

@@ -337,6 +337,50 @@ h1 {
 
 .card__actions {
   margin-top: 0.25rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.btn--ghost:hover {
+  color: white;
+}
+
+.checked {
+  margin: 2rem 0 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: var(--surface-solid);
+  border: 1px solid var(--line);
+}
+
+.checked summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.checked__wrap {
+  overflow-x: auto;
+  margin-top: 0.75rem;
+}
+
+.checked table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.checked th,
+.checked td {
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
 }
 
 .btn {

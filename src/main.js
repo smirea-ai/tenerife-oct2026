@@ -3,11 +3,13 @@ const CATEGORY_ORDER = [
   "surfing",
   "sup",
   "scuba",
+  "kayak",
   "snorkeling",
   "whale_dolphin",
   "hiking",
   "paragliding",
   "buggy_jeep",
+  "jet_ski",
   "stargazing",
   "markets",
   "day_trips",
@@ -25,11 +27,13 @@ const CATEGORY_META = {
   },
   sup: { title: "SUP / Paddleboard", blurb: "Sheltered south-coast beginner paddling." },
   scuba: { title: "Scuba diving", blurb: "Discover / intro dives near Los Cristianos." },
+  kayak: { title: "Kayaking", blurb: "Coast and cliffs from Palm-Mar and Los Cristianos." },
   snorkeling: { title: "Snorkeling", blurb: "Beach and boat options near Palm-Mar." },
-  whale_dolphin: { title: "Whale & dolphin", blurb: "Eco and classic south-coast boat trips." },
+  whale_dolphin: { title: "Whale & dolphin / catamaran", blurb: "Eco and classic south-coast boat trips." },
   hiking: { title: "Hiking", blurb: "Teide and Masca are day-reachable; Anaga is north-only." },
   paragliding: { title: "Paragliding", blurb: "Tandem flights over the Adeje corridor." },
-  buggy_jeep: { title: "Buggy / Jeep", blurb: "Off-road south-coast loops." },
+  buggy_jeep: { title: "Buggy / Jeep / Quad", blurb: "Off-road south-coast loops and Teide quad tours." },
+  jet_ski: { title: "Jet ski", blurb: "Guided safaris from Puerto Colón, no licence needed." },
   stargazing: { title: "Stargazing", blurb: "Teide sunset + stars evenings." },
   markets: { title: "Markets", blurb: "Local south markets for an easy half-day." },
   day_trips: { title: "Day trips", blurb: "Bigger south-friendly outings and parks." },
@@ -105,6 +109,11 @@ function renderCard(item) {
         <div class="meta__row"><span class="meta__label">Duration</span><span class="meta__value">${escapeHtml(item.duration)}</span></div>
         <div class="meta__row"><span class="meta__label">Price</span><span class="meta__value">${escapeHtml(item.price)}</span></div>
         ${
+          item.rating
+            ? `<div class="meta__row"><span class="meta__label">Rating</span><span class="meta__value">${escapeHtml(item.rating)}</span></div>`
+            : ""
+        }
+        ${
           dateLabel
             ? `<div class="meta__row"><span class="meta__label">When</span><span class="meta__value">${escapeHtml(dateLabel)}</span></div>`
             : ""
@@ -115,6 +124,7 @@ function renderCard(item) {
         <a class="btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
           Book / info <span aria-hidden="true">↗</span>
         </a>
+        ${item.mapsUrl ? `<a class="btn btn--ghost" href="${escapeHtml(item.mapsUrl)}" target="_blank" rel="noopener noreferrer">Map <span aria-hidden="true">↗</span></a>` : ""}
       </div>
     </article>
   `;
@@ -157,7 +167,33 @@ function renderNav(categoriesPresent) {
   sections.forEach((s) => observer.observe(s));
 }
 
-function renderApp(items) {
+function link(url, label) {
+  return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${label}</a>` : "";
+}
+
+function renderChecked(rows) {
+  if (!rows.length) return "";
+  return `
+    <details class="checked">
+      <summary>Everything checked (${rows.length})</summary>
+      <div class="checked__wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Link</th><th>Map</th><th>Reason</th></tr></thead>
+          <tbody>
+            ${rows
+              .map(
+                (r) =>
+                  `<tr><td>${escapeHtml(r.name)}</td><td>${link(r.url, "link")}</td><td>${link(r.mapsUrl, "map")}</td><td>${escapeHtml(r.reason)}</td></tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  `;
+}
+
+function renderApp(items, checked = []) {
   const grouped = groupByCategory(items);
   const present = CATEGORY_ORDER.filter((c) => (grouped.get(c) || []).length > 0);
   const app = document.getElementById("app");
@@ -179,7 +215,7 @@ function renderApp(items) {
         </section>
       `;
     })
-    .join("");
+    .join("") + renderChecked(checked);
 
   renderNav(present);
 }
@@ -189,7 +225,10 @@ async function main() {
     const res = await fetch(`${import.meta.env.BASE_URL}activities.json`);
     if (!res.ok) throw new Error(`Failed to load activities (${res.status})`);
     const items = await res.json();
-    renderApp(items);
+    const checked = await fetch(`${import.meta.env.BASE_URL}checked.json`)
+      .then((r) => (r.ok ? r.json() : []))
+      .catch(() => []);
+    renderApp(items, checked);
   } catch (err) {
     document.getElementById("app").innerHTML = `<p class="loading">Could not load activities: ${escapeHtml(err.message)}</p>`;
   }
