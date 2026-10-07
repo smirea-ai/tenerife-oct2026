@@ -100,9 +100,9 @@ function renderCard(item) {
   if (dated) classes.push("is-dated");
 
   return `
-    <article class="${classes.join(" ")}" data-id="${escapeHtml(item.id)}">
+    <article class="${classes.join(" ")}" id="${escapeHtml(item.id)}" data-id="${escapeHtml(item.id)}">
       <div class="card__top">${badges.join("")}</div>
-      <h3 class="card__name">${escapeHtml(item.name)}</h3>
+      <h3 class="card__name"><a class="card__anchor" href="#${escapeHtml(item.id)}">${escapeHtml(item.name)}</a></h3>
       <p class="card__summary">${escapeHtml(item.summary)}</p>
       <div class="meta">
         <div class="meta__row"><span class="meta__label">Area</span><span class="meta__value">${escapeHtml(item.area)}</span></div>
@@ -220,6 +220,13 @@ function renderApp(items, checked = []) {
   renderNav(present);
 }
 
+function scrollToHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ block: "start" });
+}
+
 async function main() {
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}activities.json`);
@@ -229,6 +236,7 @@ async function main() {
       .then((r) => (r.ok ? r.json() : []))
       .catch(() => []);
     renderApp(items, checked);
+    scrollToHash();
   } catch (err) {
     document.getElementById("app").innerHTML = `<p class="loading">Could not load activities: ${escapeHtml(err.message)}</p>`;
   }
