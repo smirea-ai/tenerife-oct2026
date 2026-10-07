@@ -144,6 +144,38 @@
     "rating": null
   },
   {
+    "id": "kayak-mana-cave",
+    "category": "kayak",
+    "name": "Mana Kayak — kayak + snorkel into the Palm-Mar sea cave",
+    "rank": 4,
+    "summary": "3h guided kayak + snorkel from Los Cristianos along the Palm-Mar cliffs; listing says it enters the Palm-Mar cave (Cueva de los Enamorados) when the sea allows.",
+    "area": "Los Cristianos (C. del Valle Menéndez 22)",
+    "duration": "3 hours",
+    "price": "Check listing",
+    "url": "https://canariasviva.com/p-122/tour-kayak-tenerife-mana-kayak",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Cave entry is weather-dependent. Some other Mana listings describe only a 15-min photo stop at the cave, so confirm entry when booking.",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mana%20Kayak%20Los%20Cristianos%20Tenerife",
+    "rating": null
+  },
+  {
+    "id": "kayak-adventuretime-palmmar-cave",
+    "category": "kayak",
+    "name": "Adventure Time — Palm-Mar kayak to Turtle Bay & Lovers' Cave",
+    "rank": 5,
+    "summary": "Short paddle from La Arenita beach in Palm-Mar to Turtle Bay and Cueva de los Enamorados (Lovers' Cave); snorkel, guided tours or rentals.",
+    "area": "Palm-Mar (La Arenita beach) — minutes from base",
+    "duration": "Guided tour or rental (check site)",
+    "price": "From ~$45 pp on Cool Destinations listing",
+    "url": "https://adventuretimetenerife.com/",
+    "scheduleType": "ongoing",
+    "dates": null,
+    "notes": "Visits the cave; ask whether they paddle inside. Alt listing: https://www.cooldestinations.com/activity/tenerife/kayaking-tour-in-the-south-of-tenerife/",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Adventure%20Time%20Tenerife%20Palm-Mar",
+    "rating": null
+  },
+  {
     "id": "scuba-barbarian-try",
     "category": "scuba",
     "name": "Barbarian Diving — Try Scuba",
